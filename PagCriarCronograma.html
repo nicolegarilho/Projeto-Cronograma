@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Criar Cronograma - EasyFlow</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="logo"><img height="40px" width="120px" src="imagenstcc/logoeasy.png" alt="Logo"></a>
+    </header>
+
+    <main class="formulario">
+        <h1>Criar Cronograma</h1>
+        <form action="#" method="post">
+            <label for="atividade">Atividade:</label>
+            <input type="text" id="atividade" name="atividade" placeholder="Digite a atividade">
+
+            <label for="tempo">Duração (em horas):</label>
+            <input type="number" id="tempo" name="tempo" placeholder="Ex: 2">
+
+            <label for="prioridade">Prioridade:</label>
+            <select id="prioridade" name="prioridade">
+                <option value="alta">Alta</option>
+                <option value="media">Média</option>
+                <option value="baixa">Baixa</option>
+            </select>
+
+            <a href="GeradorCronograma.html" class="botao">Criar Cronograma</a>
+
+
+            <!-- <form action="GeradorCronograma.html" method="get">
+                <button type="submit" class="botao">Criar Cronograma</button>
+            </form> -->
+            
+
+            <!-- <button type="submit" class="botao">Criar Cronograma</button> -->
+        </form>
+    </main>
+</body>
+</html>
